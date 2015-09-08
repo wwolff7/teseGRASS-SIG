@@ -1,0 +1,317 @@
+## Caracterização morfométrica bacias de drenagem
+
+## Itajaí-Açú
+## -----------------------------------------------------------------------------##
+r.basin map=dem.filled prefix=E83069900 easting=619230.092050 northing=6978823.630077 threshold=62
+r.basin map=dem.filled prefix=E83050000 easting=599763.221778 northing=7000463.105708 threshold=62
+r.basin map=dem.filled prefix=E83029900 easting=586772.835463 northing=7008946.849129 threshold=62
+r.basin map=dem.filled prefix=E83892990 easting=665619.283037 northing=6975734.238558 threshold=62
+r.basin map=dem.filled prefix=E83300200 easting=635243.618526 northing=6989904.373853 threshold=62
+r.basin map=dem.filled prefix=E83345000 easting=616374.039130 northing=7046134.805542 threshold=62
+r.basin map=dem.filled prefix=E83440000 easting=647055.196602 northing=7006434.852436 threshold=62
+r.basin map=dem.filled prefix=E83500000 easting=659384.831079 northing=7008595.459870 threshold=62
+r.basin map=dem.filled prefix=E83892998 easting=689415.270943 northing=6990255.001796 threshold=62
+r.basin map=dem.filled prefix=E83520000 easting=669772.855754 northing=7018810.392150 threshold=62
+r.basin map=dem.filled prefix=E83690000 easting=675139.454066 northing=7024535.105460 threshold=62
+r.basin map=dem.filled prefix=E83677000 easting=671591.026875 northing=7031761.365975 threshold=62
+r.basin map=dem.filled prefix=E83660000 easting=662590.139663 northing=7036109.190662 threshold=62
+r.basin map=dem.filled prefix=E83675000 easting=672283.402864 northing=7040965.497272 threshold=62
+r.basin map=dem.filled prefix=E83900000 easting=706591.693391 northing=7000636.199332 threshold=62
+r.basin map=dem.filled prefix=E83800002 easting=692110.968590 northing=7021139.541716 threshold=62
+r.basin map=dem.filled prefix=E83880000 easting=705597.953877 northing=7042617.542066 threshold=62
+##-----------------------------------------------------------------------------##
+
+r.stream.stats 
+r.stream.stats stream_rast= direction= elevation=dem.filled
+
+## Negro
+## -----------------------------------------------------------------------------##
+r.basin map=dem.filled prefix=E65094500 easting=637837.700532 northing=7094130.974963 threshold=62
+r.basin map=dem.filled prefix=E65095000 easting=639395.544806 northing=7099905.977803 threshold=62
+r.basin map=dem.filled prefix=E65135000 easting=661008.302402 northing=7130370.162546 threshold=62
+r.basin map=dem.filled prefix=E65136550 easting=647787.102279 northing=7139371.038704 threshold=62
+##-----------------------------------------------------------------------------##
+
+## Itapocu
+##-----------------------------------------------------------------------------##
+r.basin map=dem.filled prefix=E82320000 easting=670557.006511 northing=7076369.369061 threshold=62
+r.basin map=dem.filled prefix=E82350000 easting=691323.741534 northing=7069663.021754 threshold=62
+r.basin map=dem.filled prefix=E82370000 easting=690655.358938 northing=7068142.847637 threshold=62
+r.basin map=dem.filled prefix=E82549000 easting=693214.470016 northing=7074214.461325 threshold=62
+r.basin map=dem.filled prefix=E82769800 easting=701791.137194 northing=7095236.870337 threshold=62
+r.basin map=dem.filled prefix=E82770000 easting=716595.468207 northing=7073120.487247 threshold=62
+##-----------------------------------------------------------------------------##
+
+## Cubatão Norte
+##-----------------------------------------------------------------------------##
+r.basin map=dem.filled prefix=E82270050 easting=705966.936913 northing=7102934.752351 threshold=62
+##-----------------------------------------------------------------------------##
+
+## Tijucas
+##-----------------------------------------------------------------------------##
+r.basin map=dem.filled prefix=E84071000 easting=702488.320873 northing=6965890.599896 threshold=62
+r.basin map=dem.filled prefix=E84095000 easting=704597.772635 northing=6980038.015474 threshold=62
+r.basin map=dem.filled prefix=E84095500 easting=712744.743861 northing=6981249.666802 threshold=62
+##-----------------------------------------------------------------------------##
+
+## Cubatão Sul
+##-----------------------------------------------------------------------------##
+r.basin map=dem.filled prefix=E84150100 easting=724772.916424 northing=6934600.836922 threshold=62
+r.basin map=dem.filled prefix=E84100000 easting=716773.195131 northing=6933653.458274 threshold=62
+##-----------------------------------------------------------------------------##
+
+## Tubarão
+##-----------------------------------------------------------------------------##
+r.basin map=dem.filled prefix=E84600000 easting=694785.623484 northing=6872398.474502 threshold=62
+r.basin map=dem.filled prefix=E84559800 easting=680155.137322 northing=6875147.109833 threshold=62
+r.basin map=dem.filled prefix=E84520000 easting=685256.809265 northing=6901790.881985 threshold=62
+r.basin map=dem.filled prefix=E84249998 easting=667090.583877 northing=6861884.387000 threshold=62
+r.basin map=dem.filled prefix=E84300000 easting=678164.300968 northing=6853160.107672 threshold=62
+r.basin map=dem.filled prefix=E84580000 easting=685611.640619 northing=6854832.717792 threshold=62
+r.basin map=dem.filled prefix=E84551000 easting=677130.034729 northing=6877834.942209 threshold=62
+r.basin map=dem.filled prefix=E84520010 easting=684746.172669 northing=6897849.229501 threshold=62
+r.basin map=dem.filled prefix=E84560000 easting=678535.944376 northing=6865190.145291 threshold=62
+r.basin map=dem.filled prefix=E84598002 easting=699073.292478 northing=6882759.187222 threshold=62
+
+##-----------------------------------------------------------------------------##
+
+## Araranguá
+##-----------------------------------------------------------------------------##
+r.basin map=dem.filled prefix=E84949800 easting=632909.594730 northing=6792577.210289 threshold=62
+r.basin map=dem.filled prefix=E84820000 easting=648742.626857 northing=6816083.775328 threshold=62
+r.basin map=dem.filled prefix=E84853000 easting=639335.229134 northing=6804355.681978 threshold=62
+r.basin map=dem.filled prefix=E84800000 easting=641299.575907 northing=6834113.668384 threshold=62
+r.basin map=dem.filled prefix=E84949000 easting=624682.550123 northing=6796663.458343 threshold=62
+##-----------------------------------------------------------------------------##
+
+## Mampituba
+##-----------------------------------------------------------------------------##
+r.basin map=dem.filled prefix=E84980000 easting=602872.706211 northing=6768789.820077 threshold=62
+r.basin map=dem.filled prefix=E84970000 easting=601253.462432 northing=6769382.609939 threshold=62
+##-----------------------------------------------------------------------------##
+
+## Irani
+##-----------------------------------------------------------------------------##
+r.basin map=dem.filled prefix=E73300000 easting=382437.498755 northing=7018420.930820 threshold=62
+r.basin map=dem.filled prefix=E73330000 easting=364416.566682 northing=7016128.117209 threshold=62
+r.basin map=dem.filled prefix=E73350000 easting=349448.994357 northing=6994318.271581 threshold=62
+##-----------------------------------------------------------------------------##
+
+## Chapecó
+##-----------------------------------------------------------------------------##
+r.basin map=dem.filled prefix=E73600000 easting=367971.719360 northing=7061392.200210 threshold=62
+r.basin map=dem.filled prefix=E73960000 easting=306386.623005 northing=7007646.511218 threshold=62
+r.basin map=dem.filled prefix=E73690001 easting=397654.662044 northing=7038111.045161 threshold=62
+r.basin map=dem.filled prefix=E73780000 easting=310776.572726 northing=7041764.067000 threshold=62
+r.basin map=dem.filled prefix=E73820000 easting=311209.309812 northing=7028121.684958 threshold=62
+r.basin map=dem.filled prefix=E73765000 easting=325360.519646 northing=7038543.793423 threshold=62
+r.basin map=dem.filled prefix=E73770000 easting=326787.771863 northing=7031937.304264 threshold=62
+r.basin map=dem.filled prefix=E73900000 easting=300564.026321 northing=7020327.578221 threshold=62
+r.basin map=dem.filled prefix=E65925800 easting=341154.573172 northing=7092334.506990 threshold=62
+r.basin map=dem.filled prefix=E65925000 easting=370321.962032 northing=7092981.855537 threshold=62
+r.basin map=dem.filled prefix=E65365000 easting=447780.478870 northing=7105062.033452 threshold=62
+##-----------------------------------------------------------------------------##
+
+## Antas
+##-----------------------------------------------------------------------------##
+r.basin map=dem.filled prefix=E65948000 easting=298140.710701 northing=7105904.841644 threshold=62
+r.basin map=dem.filled prefix=E74300000 easting=256181.640019 northing=7056632.112070 threshold=62
+r.basin map=dem.filled prefix=E74320000 easting=272283.926660 northing=7046333.013096 threshold=62
+r.basin map=dem.filled prefix=E74295000 easting=272379.147862 northing=7009983.278773 threshold=62
+r.basin map=dem.filled prefix=E74100000 easting=278605.048143 northing=6992414.238739 threshold=62
+r.basin map=dem.filled prefix=E74270000 easting=270453.627183 northing=6980643.846728 threshold=62
+
+##-----------------------------------------------------------------------------##
+
+## Peperi-Guaçu
+##-----------------------------------------------------------------------------##
+r.basin map=dem.filled prefix=E74422000 easting=235221.050409 northing=7034382.391980 threshold=62
+r.basin map=dem.filled prefix=E74424500 easting=229455.548775 northing=7015089.553160 threshold=62
+r.basin map=dem.filled prefix=E74370000 easting=238534.048028 northing=6973893.180474 threshold=62
+r.basin map=dem.filled prefix=E74470000 easting=215142.135125 northing=6966870.297558 threshold=62
+
+##-----------------------------------------------------------------------------##
+
+##-----------------------------------------------------------------------------##
+## Precipitação média nas bacias de drenagem 
+v.rast.stats -c E65094500_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E65095000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E65135000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E65180000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E65925000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E70100000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E70200000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E70300000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E70500000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E71200000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E71250000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E71300000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E71383000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E71350001_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E71498000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E71550000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E72430000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E72630000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E72680000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E72715000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E72810000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E72849000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E72870000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E73300000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E73330000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E73350000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E73600000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E73690001_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E73765000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E73770000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E73780000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E73820000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E73900000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E73960000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E74100000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E74270000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E74295000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E74320000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E74370000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E74470000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E82270050_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E82320000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E82350000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E82370000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E82549000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E82770000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E83029900_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E83050000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E83069900_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E83105000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E83250000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E83300200_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E83345000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E83440000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E83520000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E83660000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E83675000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E83677000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E83690000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E83800002_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E83880000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E83892990_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E83892998_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E83900000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E84071000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E84095000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E84095500_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E84100000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E84249998_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E84300000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E84520000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E84520010_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E84551000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E84559800_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E84560000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E84580000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E84598002_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E84800000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E84820000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E84853000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E84949000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E84970000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+v.rast.stats -c E86100000_dem_filled_basin raster=Pluvi_SON colprefix=Pluvi
+
+##-----------------------------------------------------------------------------##
+
+## Nota importante !!
+
+Código real(ANA) = Código errado
+E71383000=E71303000
+E70100000=E71010000
+E70200000=E71020000
+E70300000=E71030000
+E70500000=E71050000
+##-----------------------------------------------------------------------------##
+
+## Exportar Precipitação média em arquivo de texto ##
+v.out.ascii input=E65094500_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E65094500.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E65095000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E65095000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E65135000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E65135000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E65180000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E65180000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E65925000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E65925000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E70100000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E70100000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E70200000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E70200000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E70300000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E70300000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E70500000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E70500000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E71200000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E71200000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E71250000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E71250000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E71300000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E71300000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E71383000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E71383000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E71350001_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E71350001.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E71498000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E71498000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E71550000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E71550000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E72430000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E72430000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E72630000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E72630000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E72680000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E72680000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E72715000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E72715000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E72810000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E72810000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E72849000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E72849000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E72870000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E72870000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E73300000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E73300000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E73330000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E73330000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E73350000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E73350000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E73600000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E73600000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E73690001_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E73690001.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E73765000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E73765000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E73770000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E73770000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E73780000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E73780000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E73820000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E73820000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E73900000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E73900000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E73960000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E73960000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E74100000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E74100000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E74270000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E74270000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E74295000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E74295000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E74320000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E74320000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E74370000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E74370000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E74470000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E74470000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E82270050_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E82270050.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E82320000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E82320000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E82350000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E82350000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E82370000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E82370000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E82549000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E82549000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E82770000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E82770000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E83029900_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E83029900.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E83050000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E83050000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E83069900_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E83069900.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E83105000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E83105000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E83250000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E83250000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E83300200_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E83300200.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E83345000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E83345000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E83440000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E83440000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E83520000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E83520000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E83660000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E83660000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E83675000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E83675000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E83677000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E83677000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E83690000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E83690000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E83800002_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E83800002.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E83880000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E83880000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E83892990_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E83892990.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E83892998_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E83892998.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E83900000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E83900000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E84071000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E84071000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E84095000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E84095000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E84095500_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E84095500.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E84100000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E84100000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E84249998_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E84249998.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E84300000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E84300000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E84520000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E84520000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E84520010_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E84520010.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E84551000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E84551000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E84559800_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E84559800.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E84560000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E84560000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E84580000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E84580000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E84598002_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E84598002.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E84800000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E84800000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E84820000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E84820000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E84853000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E84853000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E84949000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E84949000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E84970000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E84970000.txt columns=Pluvi_mean format=point 
+v.out.ascii input=E86100000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E86100000.txt columns=Pluvi_mean format=point 
+
