@@ -2,7 +2,6 @@
 
 ## Itajaí-Açú
 ## -----------------------------------------------------------------------------##
-##r.basin map=dem.filled prefix=E83069900 coord=619230.092050,6978823.630077 dir=/home/wagner threshold=62 --overwrite
 r.basin map=dem.filled prefix=E83069900 easting=619230.092050 northing=6978823.630077 threshold=62
 r.basin map=dem.filled prefix=E83050000 easting=599763.221778 northing=7000463.105708 threshold=62
 r.basin map=dem.filled prefix=E83029900 easting=586772.835463 northing=7008946.849129 threshold=62
@@ -317,4 +316,4 @@ v.out.ascii input=E84970000_dem_filled_basin layer=1 output=/home/wagner/Prec_me
 v.out.ascii input=E86100000_dem_filled_basin layer=1 output=/home/wagner/Prec_media/SON/Pluvi_mean-E86100000.txt columns=Pluvi_mean format=point 
 
 
-
+r.basin map=dem.filled prefix=E83069900 coord=619230.092050,6978823.630077 dir=/home/wagner threshold=62 --overwrite

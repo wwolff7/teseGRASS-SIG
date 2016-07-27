@@ -1,0 +1,38 @@
+Morphometric parameters of basin :
+
+grep "Area of basin" *csv | sed 's:_:,:g'| cut -d, -f1 | tr -s "\r" "\n"> Resultados/Estat.csv 
+grep "Area of basin" *csv | cut -d, -f2  | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n" > Resultados/areaBH.csv 
+grep "Easting Centro" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n" > Resultados/longi.csv   
+grep "Northing Centr" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n"> Resultados/lati.csv
+grep "Perimeter of b" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n" > Resultados/perim.csv 
+grep "Max Elevation" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n"> Resultados/ max-elev.csv 
+grep "Min Elevation" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n"> Resultados/ min-elev.csv 
+grep "Elevation Diff" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n"> Resultados/diff-elev.csv
+grep "Mean Elevation" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n"> Resultados/mean-elev.csv 
+grep "Mean Slope" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n"> Resultados/mean-slope.csv 
+grep "Compactness Co" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n"> Resultados/coef-comp.csv 
+grep "Circularity Ra" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n"> Resultados/raz-circ.csv 
+grep "Topological Di" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n"> Resultados/topo-dia.csv 
+grep "Elongation Rat" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n"> Resultados/raz-along.csv 
+grep "Shape Factor" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n"> Resultados/fator-form.csv 
+grep "Length of Main" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n"> Resultados/compr-talv.csv 
+grep "Number of stre" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n"> Resultados/rios-num.csv 
+grep "Total Stream L" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n"> Resultados/compr-rios.csv 
+grep "First order st" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n"> Resultados/freq-1order.csv 
+grep "Drainage Densi" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n"> Resultados/dens-dre.csv 
+grep "Bifurcation Ra" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n"> Resultados/raz-bifu.csv 
+grep "Length Ratio (" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n"> Resultados/raz-compr.csv 
+grep "Area ratio (Ho" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n"> Resultados/raz-area.csv 
+grep "Slope ratio (H" *csv | cut -d, -f2 | sed 's/^[ \t]*//;s/[ \t]*$//' | tr -s "\r" "\n"> Resultados/raz-decli.csv 
+
+paste -d: Estat.csv areaBH.csv longi.csv lati.csv perim.csv max-elev.csv min-elev.csv
+diff-elev.csv mean-elev.csv mean-slope.csv coef-comp.csv 
+raz-circ.csv topo-dia.csv raz-along.csv fator-form.csv compr-talv.csv rios-num.csv
+compr-rios.csv freq-1order.csv dens-dre.csv raz-bifu.csvraz-compr.csv raz-area.csv raz-decli.csv
+                                
+                                                               
+                                             
+                                            
+                                              
+                                
+                             
